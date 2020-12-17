@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13c3aef3-a0f9-4d8b-9d3c-c5edeb749a85" name="Default Changelist" comment="format code">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="13c3aef3-a0f9-4d8b-9d3c-c5edeb749a85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rabbitmq01/src/test/java/com/vic/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq01/src/test/java/com/vic/Send.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq01/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq01/rabbitmq01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq01/rabbitmq01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq01/src/main/java/com/vic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq01/src/main/java/com/vic/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq01/src/test/java/com/vic/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq01/src/test/java/com/vic/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq01/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq01/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq01/src/test/java/com/vic/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq02/rabbitmq02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq02/rabbitmq02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq02/src/main/java/com/vic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq02/src/main/java/com/vic/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq02/src/test/java/com/vic/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq02/src/test/java/com/vic/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,12 +43,6 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="651" />
-    <option name="y" value="154" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
-  </component>
   <component name="ProjectId" id="1kPaOKQNtc15quKZFyeXvEzy0Nf" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -66,7 +61,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -91,7 +88,7 @@
       <recent name="D:\github\rabbitmq\rabbitmq02" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Recv">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vic.App" />
       <module name="rabbitmq01" />
@@ -105,8 +102,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Recv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vic.Recv" />
+      <module name="rabbitmq01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vic.Send" />
+      <module name="rabbitmq01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recv" />
+        <item itemvalue="Application.Send" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -122,26 +147,81 @@
       <option name="presentableId" value="Default" />
       <updated>1565319526917</updated>
       <workItem from="1565319528167" duration="1407000" />
-      <workItem from="1605604648639" duration="258000" />
+      <workItem from="1605604648639" duration="1645000" />
+      <workItem from="1607945929545" duration="7405000" />
+      <workItem from="1608086997615" duration="594000" />
+      <workItem from="1608103544580" duration="726000" />
     </task>
+    <task id="LOCAL-00001" summary="format code">
+      <created>1605604937284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605604937284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="format code" />
+    <option name="LAST_COMMIT_MESSAGE" value="format code" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1605604910201">
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1605604936368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605604910201" />
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605604936368" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1605604842523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605604842523" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1608026356906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608026356906" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1608026356905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608026356905" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1608026356905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608026356905" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1608026356906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608026356906" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1608026356799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608026356799" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1608026356798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608026356798" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1608026356798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608026356798" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1608026356799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608026356799" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605604938692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605604938692" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605604685406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605604685406" />
+    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1608015827365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608015827365" />
   </component>
   <component name="masterDetails">
     <states>
